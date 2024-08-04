@@ -1,0 +1,32 @@
+Source: exiv2-stub
+Maintainer: Bardia Moshiri <bardia@furilabs.com>
+Section: misc
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/furilabs/exiv2-stub
+Vcs-Git: https://github.com/furilabs/exiv2-stub.git
+
+Package: libexiv2-27
+Architecture: any
+Multi-Arch: same
+Description: EXIF/IPTC/XMP metadata manipulation library (transitional package)
+ Exiv2 is a C++ library and a command line utility to manage image metadata.
+ It provides fast and easy read and write access to the Exif, IPTC and XMP
+ metadata of images in various formats
+ .
+ Exiv2 library provides:
+  * fast read and write access to the Exif, IPTC, and XMP metadata of an image
+  * an easy to use and extensively documented API
+  * conversions of Exif and IPTC metadata to XMP and vice versa
+  * a smart IPTC implementation that does not affect data that programs like
+    Photoshop store in the same image segment
+  * Exif Makernote support:
+    - Makernote tags can be read and written just like any other metadata
+    - a sophisticated write algorithm avoids corrupting the Makernote
+  * a simple interface to extract previews embedded in RAW images and Exif
+    thumbnails
+  * set and delete methods for Exif thumbnails
+ .
+ This is a transitional package that can be removed.
+
